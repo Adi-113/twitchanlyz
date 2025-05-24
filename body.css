@@ -1,133 +1,3 @@
-/* 0) CSS Reset for cross-browser consistency */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-/* 1) Set box-sizing for all elements */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
 
 /* 1) Remove all page margins/padding */
 html,
@@ -252,11 +122,10 @@ body {
     5px 5px 0 #000; /* Thicker shadow for more pronounced 3D effect */
 }
 :root {
-  --bg: #f0f2f5;
-  --font: "Segoe UI", Tahoma, sans-serif;
-  --blue: steelblue;
-  --orange: darkorange;
-  --shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  --bg: #000000;
+  --blue: rgb(78, 182, 168);
+  --orange: rgb(96, 177, 202);
+
 }
 * {
   box-sizing: border-box;
@@ -270,7 +139,7 @@ body {
 }
 
 svg {
-  background: #fff;
+  background: #18181b;
   border-radius: 8px;
   box-shadow: var(--shadow);
 }
@@ -297,20 +166,20 @@ svg {
 
 .bar1.selected,
 .bar2.selected {
-  stroke: #000;
+  stroke: #f8f6f6;
   stroke-width: 2px;
 }
 
 .axis-label {
-  font-size: 14px;
-  fill: #555;
+  font-size: 20px;
+  fill: #ffffff;
 }
 
 .title {
   font-size: 20px;
   font-weight: 600;
   text-anchor: middle;
-  fill: #222;
+  fill: #f3eded;
 }
 
 .tick text {
@@ -318,18 +187,84 @@ svg {
 }
 
 .error-bar {
-  stroke: #333;
+  stroke: #e9e6e6;
   stroke-width: 2px;
 }
 
 #tooltip2 {
   position: absolute;
   padding: 8px 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  font-size: 13px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  font-size: 20px;
   border-radius: 4px;
   pointer-events: none;
   visibility: hidden;
   box-shadow: var(--shadow);
 }
+.info h1{
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size:3em;
+  color: white;
+}
+.info p {
+  font-size: 1.3em;
+  max-width: 90%;
+  color:white;
+  margin-left: 100px;
+
+}
+.right-panel2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 30vw;
+    background: #18181b;
+    color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .left-panel2 {
+    width: 70vw;
+    height: 100vh;
+
+  }
+  #pie { display: flex; justify-content: center; align-items: center; height: 90vh; }
+  .slice path { cursor: pointer; transition: transform 0.2s; }
+    .slice:hover path { transform: scale(1.05); }
+
+    /* Tooltip styling */
+    #tooltip3 {
+      position: absolute;
+      padding: 8px 12px;
+      background: rgba(255, 253, 253, 0.8);
+      color: #000000;
+      border-radius: 4px;
+      pointer-events: none;
+      display: none;
+      font-size: 14px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      line-height: 1.4;
+    }
+    #tooltip3 .lang { font-weight: 600; font-size: 20px; margin-bottom: 4px; display: block; }
+    #tooltip3 .details { font-size: 20px; }
+    #community { width:100vw; height:100vh; background: #18181b; }
+    .link { stroke: #aaa; stroke-width: 1px; }
+    .node { stroke: #fff; stroke-width: 1.5px; cursor: pointer; }
+    .legend {
+        font-size: 14px;
+      }
+      .legend-item { cursor: pointer; }
+      .legend-color { width: 12px; height: 12px; display: inline-block; margin-right: 4px; }

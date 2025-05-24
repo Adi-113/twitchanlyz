@@ -1,5 +1,5 @@
-const totalWidth = 1200,
-  totalHeight = 600,
+const totalWidth = 1800,
+  totalHeight = 900,
   margin1 = { top: 60, right: 20, bottom: 80, left: 80 },
   plotWidth = (totalWidth - margin1.left - margin1.right) / 2,
   plotHeight = totalHeight - margin1.top - margin1.bottom;
@@ -82,21 +82,36 @@ d3.csv("stream.csv", (d) => ({
         .attr("transform", `translate(0,${plotHeight})`)
         .call(d3.axisBottom(x))
         .selectAll("text")
-        .attr("transform", "rotate(-50)")
+
+        .style("color","white")
         .style("text-anchor", "end");
+      svg.selectAll('.x-axis text')
+        .attr('dx','1.5em')
+         .attr('dy', '2.5em');
       svg
         .append("text")
         .attr("class", "title")
         .attr("x", plotWidth / 2)
         .attr("y", -30)
+        .attr("fontsize","14px")
         .text(title);
       svg
         .append("text")
         .attr("class", "axis-label")
         .attr("x", -plotHeight / 2)
         .attr("y", -50)
+        .attr("fontsize","14px")
         .attr("transform", "rotate(-90)")
         .text(ylabel);
+    svg.selectAll('.y-axis text')
+        .attr('dy','1.2em')
+      svg.selectAll('.y-axis text, .x-axis text')
+
+         .attr('fill', '#fff')
+         .style('font-size', '16px');
+      svg.selectAll('.y-axis path, .y-axis line, .x-axis path, .x-axis line')
+         .attr('stroke', '#fff')
+         .attr('stroke-width', 2);
     }
     drawAxes(svg1, x1, y1, "Most Active Day Frequency", "Streamers Count");
     drawAxes(
