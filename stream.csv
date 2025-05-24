@@ -1,0 +1,201 @@
+RANK,NAME,LANGUAGE,TYPE,MOST_STREAMED_GAME,2ND_MOST_STREAMED_GAME,AVERAGE_STREAM_DURATION,FOLLOWERS_GAINED_PER_STREAM,AVG_VIEWERS_PER_STREAM,AVG_GAMES_PER_STREAM,TOTAL_TIME_STREAMED,TOTAL_FOLLOWERS,TOTAL_VIEWS,TOTAL_GAMES_STREAMED,ACTIVE_DAYS_PER_WEEK,MOST_ACTIVE_DAY,DAY_WITH_MOST_FOLLOWERS_GAINED
+3,caedrel,English,personality,League of Legends,I'm Only Sleeping,6.3,689,12331,1.3,6728,797000,14200000,111,2.8,Thursday,Sunday
+7,zerator,French,personality,World of Warcraft,VALORANT,5.1,6670,70813,1.6,9845,1570000,156000000,448,5.0,Sunday,Sunday
+9,riotgames,English,esports,League of Legends,League of Legends: Wild Rift,8.5,3434,346968,1.0,9459,6860000,1339000,8,2.8,Saturday,Sunday
+11,dota2_paragon_ru,Russian,personality,Dota 2,,10.7,1629,0,1.0,2291,352000,0,1,2.8,Tuesday,Sunday
+13,kato_junichi0817,Japanese,personality,Apex Legends,VALORANT,6.3,5460,23768,1.2,67,939000,38400000,136,5.2,Saturday,Sunday
+20,pgl_dota2,English,esports,Dota 2,,10.2,1457,111936,1.0,3421,450000,38100000,1,0.8,Saturday,Sunday
+24,gaules,Portuguese,esports,Counter-Strike,Among Us,22.5,2425,235565,2.5,52432,4139999,405000000,211,7.0,Monday,Saturday
+32,shroud,English,personality,PUBG: BATTLEGROUNDS,VALORANT,8.0,5394,28744,2.0,16781,10900000,571000000,354,5.4,Thursday,Thursday
+34,paulinholokobr,Portuguese,personality,Grand Theft Auto V,Slots,3.0,6917,2030,1.2,1618,2930000,86000,15,2.5,Wednesday,Tuesday
+38,kingsleagueamericas,Spanish,personality,Sports,Fortnite,3.4,13617,0,1.0,1340,467000,0,3,1.3,Sunday,Wednesday
+41,summit1g,English,personality,Grand Theft Auto V,Escape from Tarkov,10.1,1861,162001,1.7,26449,6270000,505000000,328,6.7,Tuesday,Saturday
+46,nicewigg,English,personality,Apex Legends,Call of Duty: Warzone,6.3,4840,9867,1.1,10622,800000,16300000,49,6.1,Tuesday,Sunday
+49,k3soju,English,personality,Teamfight Tactics,Fortnite,8.3,4780,1794,1.1,10868,583000,21900000,24,4.1,Wednesday,Sunday
+58,valorant_americas,English,esports,Valorant,,5.9,2796,43529,1.0,1614,752000,11700000,1,1.5,Saturday,Sunday
+63,tsm_imperialhal,English,personality,Apex Legends,Fortnite,6.3,1281,44445,1.0,10637,2029999,70500000,36,4.9,Thursday,Sunday
+67,angryginge13,English,personality,Grand Theft Auto V,FIFA 23,4.8,1029,3480,1.7,4668,935000,316000,80,5.1,Friday,Sunday
+68,lvndmark,English,personality,Escape from Tarkov,Call of Duty: Warzone,9.1,8000,39761,1.2,14685,1260000,62700000,62,6.8,Monday,Friday
+86,recrent,Russian,personality,PUBG: BATTLEGROUNDS,Call of Duty: Warzone,7.7,5270,3073,1.6,16864,1270000,74300000,157,6.3,Tuesday,Wednesday
+89,moonmoon,English,personality,Overwatch,Grand Theft Auto V,6.1,3690,34598,1.3,15957,1190000,99500000,561,6.7,Tuesday,Friday
+90,thebausffs,English,personality,League of Legends,Overwatch 2,5.5,9430,16707,1.0,7317,1250000,22100000,14,4.4,Monday,Sunday
+91,fissure_cs_eng,English,personality,Counter-Strike,,6.0,2560,18637,1.0,6078,147000,14200000,1,1.5,Tuesday,Tuesday
+93,handofblood,German,personality,PUBG: BATTLEGROUNDS,Fortnite,4.8,2405,50115,1.7,1944,1120000,22500000,155,1.0,Wednesday,Saturday
+95,tck10,Portuguese,personality,VALORANT,Virtual Casino,7.8,4450,2648,1.1,8245,481000,2860000,29,4.8,Wednesday,Sunday
+96,esl_dota2,English,esports,Dota 2,,20.3,6060,54843,1.0,34047,802000,93100000,1,4.4,Friday,Sunday
+99,gorgc,English,personality,Dota 2,PUBG: BATTLEGROUNDS,6.6,3120,3621,1.1,15475,720000,83400000,88,6.2,Monday,Monday
+106,silvername,Russian,personality,Hearthstone,Dota 2,6.2,3430,694,1.2,12717,862000,159000000,115,5.3,Thursday,Wednesday
+107,gotaga,French,personality,Fortnite,Teamfight Tactics,6.9,1893,83426,1.8,14351,4330000,185000000,187,5.3,Monday,Monday
+108,tolkin,German,personality,League of Legends,Teamfight Tactics,6.4,1580,6062,1.3,10965,309000,11800000,105,5.4,Thursday,Wednesday
+111,valorant_pacific,English,esports,Valorant,,6.4,177,3556,1.0,1121,315000,634000,1,1.2,Sunday,Saturday
+125,eslcsb,English,esports,Counter-Strike,,6.5,1084,59976,1.0,6053,1240000,67000000,1,2.4,Wednesday,Sunday
+126,valorant_emea,English,esports,Valorant,,7.8,1591,10674,1.0,2297,576000,3860000,1,1.6,Saturday,Wednesday
+127,trymacs,German,personality,Fortnite,Clash Royale,6.0,1611,6778,1.9,12653,3560000,148000000,173,5.3,Monday,Thursday
+138,nikof,French,personality,Fortnite,Rust,4.7,5850,8528,1.2,4951,649000,9460000,57,3.4,Saturday,Sunday
+145,gocchanmikey,Japanese,personality,Grand Theft Auto V,Rust,8.2,8340,0,1.2,1426,164000,0,34,1.9,Tuesday,Sunday
+149,riotgamesjp,Japanese,esports,League of Legends,League of Legends: Wild Rift,5.8,3710,78443,1.0,4473,310000,63500000,7,2.0,Saturday,Sunday
+151,stray228,Russian,personality,Dota 2,The Last of Us Part II,6.0,7340,55905,1.0,12578,1600000,120000000,14,5.4,Wednesday,Thursday
+160,roger9527,Chinese,personality,Hearthstone,League of Legends,7.5,3330,33004,1.5,3543,196000,18200000,46,1.2,Friday,Sunday
+164,sasatikk,Japanese,personality,Escape from Tarkov,Rust,7.1,2230,1098,1.6,10745,344000,16900000,237,3.9,Monday,Sunday
+167,lenagol0vach,Russian,personality,Hearthstone,Dota 2,5.9,3810,18774,1.4,7782,585000,29500000,30,3.4,Sunday,Sunday
+169,dreadztv,Russian,personality,Dota 2,Mount & Blade II: Bannerlord,8.2,2340,94945,2.1,11445,715000,199000000,309,3.6,Wednesday,Thursday
+171,fortnite,English,esports,Fortnite,,5.2,18889,352166,1.0,1726,5880000,110000000,1,0.9,Sunday,Tuesday
+174,m0nesyof,Russian,personality,Counter-Strike,Dota 2,3.1,264,31467,1.1,1152,1000000,11900000,13,1.2,Saturday,Monday
+175,esl_dota2ember,English,esports,Dota 2,,20.4,8270,148524,1.0,2343,605000,137000000,1,2.9,Wednesday,Tuesday
+177,rdcgaming,English,personality,Fortnite,Call of Duty: Warzone,3.8,1241,3957,1.8,2227,717000,2270000,172,1.5,Wednesday,Sunday
+183,cr_vanilla,Japanese,personality,Grand Theft Auto V,Rust,6.2,7510,0,1.0,1695,225000,0,46,3.7,Wednesday,Sunday
+198,doublelift,English,personality,League of Legends,Path of Exile,4.8,9620,6589,1.1,6108,1790000,102000000,50,3.2,Friday,Tuesday
+200,scump,English,personality,Call of Duty: Warzone,Call of Duty: Black Ops 4,5.2,1506,32447,1.2,5777,1690000,42700000,58,2.9,Thursday,Sunday
+211,aussieantics,English,esports,Fortnite,Sea of Thieves,7.3,6490,14956,1.3,1329,1240000,28600000,71,6.3,Friday,Sunday
+214,pgl_dota2en2,English,esports,Dota 2,Variety,6.5,1097,16835,1.0,1411,193000,2980000,2,0.7,Monday,Saturday
+215,hutchmf,English,personality,Grand Theft Auto V,Escape from Tarkov,8.0,2150,549,1.5,1287,382000,9680000,133,4.7,Tuesday,Sunday
+227,akamikarubi,Japanese,personality,VALORANT,Street Fighter 6,7.0,4060,1844,1.4,7789,481000,2190000,153,5.9,Thursday,Sunday
+229,dota2_paragon_ru2,Russian,personality,Dota 2,Variety,10.0,1175,0,1.0,6200,78700,0,2,1.1,Monday,Monday
+231,esl_dota2storm,English,esports,Dota 2,Variety,8.3,1321,27968,1.0,121,209000,5080000,2,0.5,Sunday,Thursday
+236,yoda,Portuguese,personality,League of Legends,Teamfight Tactics,8.0,1143,118635,2.1,15787,2440000,248000000,327,5.1,Thursday,Saturday
+237,bastighg,German,personality,Minecraft,Rocket League,6.1,6150,14577,1.9,16822,1780000,41100000,304,7.0,Thursday,Saturday
+239,bkinho,Portuguese,personality,Grand Theft Auto V,Virtual Casino,7.5,112,50,1.9,1848,277000,1300,38,0.9,Thursday,Tuesday
+259,pobelter,English,personality,League of Legends,ELDEN RING,4.6,1620,6212,1.1,6129,452000,20100000,32,3.4,Tuesday,Monday
+260,valorant_br,Portuguese,esports,VALORANT,Talk Shows & Podcasts,5.3,1647,36671,1.0,272,750000,16600000,3,2.8,Saturday,Sunday
+262,izakooo,Polish,personality,Counter-Strike,Call of Duty: Warzone,6.8,5450,51797,1.6,13869,1950000,190000000,195,5.2,Tuesday,Friday
+267,cct_cs,English,esports,Counter-Strike,Sports,10.5,4550,44292,1.0,944,417000,40700000,3,3.1,Wednesday,Tuesday
+268,watsondoto,Russian,personality,Dota 2,Counter-Strike,4.5,4420,1578,1.0,1998,209000,745000,5,1.4,Tuesday,Thursday
+271,ninja,English,personality,Fortnite,PUBG: BATTLEGROUNDS,7.4,9552,28075,1.3,1247,19000000,572000000,70,4.1,Thursday,Sunday
+273,betboom_cs_a,Russian,personality,Counter-Strike,Dota 2,8.4,3370,45839,1.0,11451,334000,58100000,4,2.5,Wednesday,Sunday
+276,michou,French,personality,Fortnite,Special Events,3.3,1249,23308,1.3,5450,1960000,3670000,42,0.5,Sunday,Saturday
+279,ramzes,Russian,personality,Dota 2,The Dark Pictures Anthology: Little Hope,3.8,1135,27591,1.0,1202,386000,9270000,11,0.8,Thursday,Tuesday
+284,chatterbox,English,personality,Grand Theft Auto V,Left 4 Dead 2,5.4,1320,4750,1.1,436,92600,332000,24,4.5,Tuesday,Sunday
+291,att,English,personality,Counter-Strike,Apex Legends,2.1,6070,261664,1.0,1030,20400,8640000,15,0.3,Friday,Thursday
+292,skermz,English,personality,Dead by Daylight,Fortnite,4.9,1820,8940,1.0,6266,235000,1160000,37,4.0,Wednesday,Monday
+296,imorr,Turkish,personality,Counter-Strike,Counter-Strike 2 Limited Test,2.7,5090,19624,1.2,1644,311000,12000000,17,1.7,Monday,Thursday
+300,nikolarn,English,personality,Apex Legends,Counter-Strike,5.2,2050,23157,1.9,8261,564000,38800000,125,4.0,Tuesday,Tuesday
+302,realzbluewater,English,personality,Among Us,VALORANT,13.2,1410,3120,3.1,16138,156000,378000,136,5.7,Thursday,Thursday
+309,imaqtpie,English,personality,League of Legends,Teamfight Tactics,8.0,4440,68813,1.6,20876,2590000,348000000,173,6.6,Tuesday,Thursday
+314,4head,English,personality,Grand Theft Auto V,Rust,7.3,1210,1810,1.2,644,106000,159000,54,3.3,Sunday,Sunday
+317,gafallen,Portuguese,personality,Counter-Strike,FIFA 21,3.1,2159,57369,1.2,185,1510000,43100000,32,1.5,Tuesday,Sunday
+321,just_ns,Russian,personality,Dota 2,World of Warcraft,7.4,4870,38575,1.4,10052,732000,55500000,198,3.5,Tuesday,Monday
+326,lla,Spanish,esports,League of Legends,Teamfight Tactics,5.5,7640,39372,1.0,4661,679000,35000000,6,2.3,Saturday,Saturday
+329,cr_arisakaaa,Japanese,personality,VALORANT,Escape from Tarkov,4.7,1005,4590,1.1,1976,435000,199000,56,1.3,Saturday,Sunday
+346,gronkhtv,German,personality,Variety,Minecraft,23.8,5980,24018,9.3,3435,568000,21400000,355,4.2,Saturday,Saturday
+347,drututt,English,personality,League of Legends,I'm Only Sleeping,5.7,5530,8635,1.1,6245,580000,9060000,30,3.1,Thursday,Sunday
+353,broxah,English,personality,League of Legends,Call of Dragons,5.7,5530,10187,1.0,5336,524000,9650000,19,2.5,Tuesday,Sunday
+356,ren_kisaragi__,Japanese,personality,Street Fighter 6,Grand Theft Auto V,5.4,8620,0,1.1,1004,178000,272,20,1.9,Thursday,Sunday
+358,ravanha69,Portuguese,personality,Virtual Casino,Fortnite,21.6,920,250,1.0,5714,16100,7900,3,0.8,Tuesday,Friday
+359,boxbox,English,personality,Teamfight Tactics,League of Legends,6.8,5640,29058,1.9,15166,2120000,125000000,166,5.7,Friday,Wednesday
+369,naru0419045,Japanese,personality,Street Fighter 6,VALORANT,6.3,1270,0,1.3,2423,60600,0,58,3.9,Tuesday,Sunday
+376,jingggxd,English,personality,VALORANT,THE FINALS,4.2,1079,1122,1.1,2163,601000,625000,27,2.6,Sunday,Tuesday
+379,luminositygaming,English,esports,Call of Duty: Warzone,Super Smash Bros. Ultimate,3.0,3890,165122,1.1,7270,87200,35400000,29,1.1,Wednesday,Sunday
+380,dasmehdi,English,personality,Grand Theft Auto V,Arma 3,10.1,2270,14497,1.6,19605,467000,28300000,529,5.0,Tuesday,Sunday
+382,masondota2,English,personality,Dota 2,DARK SOULS III,5.4,1460,10772,1.1,8956,259000,18900000,41,4.2,Tuesday,Sunday
+383,symfuhny,English,personality,Call of Duty: Warzone,Fortnite,6.9,1547,3579,1.2,16866,3990000,92300000,71,6.3,Tuesday,Sunday
+387,peterbot,English,personality,Fortnite,Variety,3.0,1004,1225,1.1,1498,550000,671000,9,2.6,Wednesday,Sunday
+390,tfblade,English,personality,League of Legends,I'm Only Sleeping,8.0,5810,45247,1.0,14807,1260000,98000000,30,5.2,Tuesday,Saturday
+391,smallant,English,personality,Super Mario Odyssey,Minecraft,4.9,9500,11469,1.2,8186,1390000,16700000,116,4.7,Wednesday,Tuesday
+403,dota2_paragon_ru3,Russian,personality,Dota 2,Variety,9.9,1668,0,1.1,3060,55200,0,2,0.5,Wednesday,Thursday
+409,chowh1,French,personality,Call of Duty: Warzone,Z1: Battle Royale,6.9,2240,847,1.3,15457,804000,30400000,92,5.7,Sunday,Sunday
+414,gu_zk,Portuguese,personality,Virtual Casino,Grand Theft Auto V,19.6,2320,350,1.1,5822,47800,7200,11,1.2,Thursday,Saturday
+421,xthesolutiontv,German,personality,Call of Duty: Warzone,Fortnite,6.7,4320,8098,2.1,10976,715000,12400000,144,4.2,Thursday,Sunday
+422,c_a_k_e,Russian,personality,Dota 2,Warcraft III,7.3,1480,36828,1.9,15004,430000,89700000,737,5.2,Sunday,Sunday
+429,iwdominate,English,personality,League of Legends,Teamfight Tactics,6.3,2730,25602,1.1,13258,872000,71100000,68,5.4,Sunday,Tuesday
+444,diazbiffle,English,personality,Call of Duty: Warzone,Call of Duty: Modern Warfare III,5.3,7190,10401,1.1,5355,722000,10400000,26,3.3,Tuesday,Sunday
+446,qojqva,English,personality,Dota 2,Counter-Strike,7.0,2230,5124,1.1,7462,264000,6350000,9,3.2,Thursday,Sunday
+454,sardoche,French,personality,League of Legends,Rocket League,8.3,6460,619,1.6,17782,1260000,120000000,177,5.4,Wednesday,Saturday
+455,sinatraa,English,personality,VALORANT,Overwatch,5.5,1185,31271,1.4,9004,1880000,49700000,77,4.2,Tuesday,Sunday
+463,saadhak,Portuguese,personality,VALORANT,Paladins,3.5,3970,1716,1.1,3833,402000,1740000,43,3.1,Wednesday,Saturday
+464,nickmercs,English,personality,Fortnite,Apex Legends,7.0,3355,114372,1.3,14376,6720000,223000000,59,5.3,Wednesday,Wednesday
+487,philza,English,personality,Minecraft,Rocket League,4.3,3789,45321,1.2,5649,4350000,52000000,66,3.7,Monday,Monday
+489,tomato,English,personality,Minecraft,S.T.A.L.K.E.R.: Call of Pripyat,3.6,1120,6087,1.3,5872,162000,8039999,943,4.1,Tuesday,Monday
+494,cs2_paragon_ru,Russian,personality,Counter-Strike,Counter-Strike 2 Limited Test,8.0,8820,0,1.0,1187,131000,0,2,2.6,Friday,Saturday
+507,shotzzy,English,personality,Call of Duty: Warzone,Halo 5: Guardians,4.2,4050,2361,1.3,5187,473000,2760000,49,3.2,Saturday,Monday
+523,fifakillvizualz,English,personality,Call of Duty: Warzone,Call of Duty: Black Ops 4,7.3,2110,2111,1.1,17821,568000,5390000,37,6.2,Wednesday,Sunday
+526,rebirthztv,Thai,personality,Grand Theft Auto V,Rust,7.1,4530,25615,1.7,12741,827000,46400000,242,4.9,Saturday,Monday
+528,metashi12,German,personality,World of Warcraft,Rust,6.0,1250,6816,1.2,1121,214000,12000000,103,4.6,Tuesday,Sunday
+532,oatley,English,personality,Fortnite,Variety,5.7,3860,2032,1.0,7639,544000,2860000,3,4.7,Saturday,Sunday
+538,cblol,Portuguese,esports,League of Legends,Teamfight Tactics,4.6,1033,125947,1.0,6151,1620000,233000000,5,3.4,Saturday,Saturday
+540,jackeyy,Thai,personality,Grand Theft Auto V,Red Dead Redemption 2,4.3,5090,11742,1.0,3929,480000,11000000,16,5.4,Saturday,Monday
+543,mago2dgod,Japanese,personality,VALORANT,Street Fighter 6,7.1,2090,0,1.1,3236,109000,5900,23,4.2,Friday,Sunday
+544,lvpes,Spanish,esports,League of Legends,Teamfight Tactics,8.2,4860,103086,1.0,14787,1100000,241000000,10,4.6,Saturday,Saturday
+546,deusamir,Spanish,personality,Call of Duty: Warzone,Call of Duty: Modern Warfare III,5.3,122,20,1.6,104,221000,364,13,0.7,Thursday,Thursday
+547,jankos,English,personality,League of Legends,I'm Only Sleeping,4.8,8980,42965,1.0,6627,1310000,61700000,28,3.5,Tuesday,Sunday
+549,squeex,English,personality,Super Mario 64,Counter-Strike,4.1,1360,1800,1.6,7009,200000,266000,245,5.3,Tuesday,Wednesday
+554,teepee,English,personality,Call of Duty: Warzone,Call of Duty: Black Ops 4,8.0,4630,22913,1.2,15647,1030000,49400000,43,5.0,Tuesday,Friday
+558,nervarien,Polish,personality,League of Legends,Teamfight Tactics,5.8,1690,25593,1.2,12059,621000,85400000,62,5.2,Thursday,Sunday
+560,kubafps,German,personality,VALORANT,Z1: Battle Royale,6.5,2040,8570,1.2,8708,274000,1150000,36,3.8,Thursday,Tuesday
+562,singsing,English,personality,Dota 2,Fortnite,8.0,1220,21392,1.4,20043,644000,101000000,528,6.4,Friday,Monday
+564,tangotek,English,personality,Minecraft,Among Us,3.0,4200,3467,1.0,2006,307000,2430000,70,3.0,Monday,Sunday
+573,light_starboy,Japanese,personality,Grand Theft Auto V,Rust,6.2,4590,0,1.0,1009,76600,0,3,3.4,Saturday,Saturday
+585,smthlikeyou11,English,personality,VALORANT,PUBG: BATTLEGROUNDS,3.8,5610,1917,1.0,1993,337000,1150000,4,3.0,Wednesday,Sunday
+586,nisqyy,French,personality,League of Legends,ELDEN RING,4.1,3480,7162,1.1,3407,326000,6660000,36,2.2,Monday,Sunday
+588,lysium,English,personality,Grand Theft Auto V,Dauntless,7.0,1650,6495,1.3,12389,299000,11800000,114,5.6,Friday,Thursday
+589,zekken,English,personality,VALORANT,Super Smash Bros. Melee,3.1,4960,3460,1.1,2158,396000,276000,39,3.2,Sunday,Tuesday
+595,dhalucard,German,personality,Dead by Daylight,VALORANT,6.0,1760,15534,2.1,13583,546000,43400000,558,5.8,Tuesday,Tuesday
+599,putupau,Spanish,personality,Genshin Impact,Rust,6.3,2690,49,1.9,11028,450000,8170000,123,4.4,Friday,Wednesday
+606,goodtimeswithscar,English,personality,Minecraft,Phasmophobia,2.6,1401,4185,1.0,9330,525000,1640000,12,0.9,Saturday,Thursday
+609,strippin,English,personality,League of Legends,For Honor,7.0,930,10996,1.7,16291,331000,26800000,506,5.9,Thursday,Tuesday
+614,midbeast,English,personality,League of Legends,Teamfight Tactics,6.4,4040,20691,1.0,12887,841000,43000000,25,5.2,Tuesday,Monday
+617,emilyywang,English,personality,Teamfight Tactics,Fortnite,6.0,1580,3159,1.6,9673,234000,4700000,110,4.5,Thursday,Monday
+629,xarola_,Portuguese,personality,VALORANT,ELDEN RING,8.0,2970,3590,1.6,8152,296000,359000,217,3.2,Monday,Tuesday
+630,traytonlol,French,personality,League of Legends,Rocket League,5.3,1510,4598,1.0,6063,201000,6130000,15,3.2,Monday,Monday
+637,kxpture,English,personality,Call of Duty: Warzone,Call of Duty: Modern Warfare III,6.2,4020,9730,1.1,6473,428000,1040000,18,5.6,Sunday,Sunday
+639,maxim,German,personality,Teamfight Tactics,League of Legends,4.8,2550,11892,1.9,8609,479000,22300000,468,5.1,Sunday,Sunday
+640,malchugov,Russian,personality,Dota 2,Counter-Strike,4.0,1290,46619,1.3,1997,71600,26500000,15,1.8,Monday,Monday
+644,dota2_maincast,Ukrainian,personality,Dota 2,Sports,13.1,1770,0,1.0,4845,99900,286,3,3.4,Sunday,Sunday
+649,alderiate,French,personality,League of Legends,Path of Exile,4.9,3550,22342,1.2,569,447000,26900000,78,3.0,Sunday,Saturday
+652,axtlol,Portuguese,personality,League of Legends,Teamfight Tactics,6.9,4750,31951,1.6,1316,897000,60800000,90,4.8,Saturday,Thursday
+654,imls,English,esports,League of Legends,Teamfight Tactics,6.1,3630,22513,1.0,9609,659000,40100000,21,4.0,Sunday,Saturday
+656,cs2_maincast,Ukrainian,personality,Counter-Strike,EA Sports FC 24,8.8,3720,4070,1.0,3944,186000,203000,3,4.0,Saturday,Sunday
+657,vatira_,French,personality,Rocket League,VALORANT,1.8,7670,2380,1.2,2420,91400,28500,8,0.9,Tuesday,Friday
+664,alphasniper97,Spanish,personality,Call of Duty: Warzone,Call of Duty: Modern Warfare II,2.5,5530,3862,1.1,2153,589000,3850000,71,5.2,Saturday,Sunday
+672,impulsesv,English,personality,Minecraft,Phasmophobia,2.8,4460,2947,1.0,2387,362000,2360000,42,3.4,Friday,Sunday
+682,rezreel,English,personality,ROBLOX,League of Legends,3.7,1367,4340,1.5,2969,1110000,351000,23,4.4,Friday,Wednesday
+684,dep_ow,Japanese,personality,PUBG: BATTLEGROUNDS,VALORANT,4.4,3860,3487,1.1,1211,111000,1000000,14,0.9,Sunday,Sunday
+689,cr_rion,Japanese,personality,VALORANT,PUBG: BATTLEGROUNDS,4.0,1790,3077,1.1,4214,232000,3980000,43,2.9,Wednesday,Sunday
+692,ybicanoooobov,Russian,personality,Dota 2,Heroes Arena,5.8,2300,34737,1.0,14575,670000,87700000,2,6.4,Wednesday,Saturday
+697,gtasty,German,personality,Grand Theft Auto V,Slots,5.3,1220,3001,1.6,6239,132000,3370000,54,4.6,Sunday,Sunday
+708,ikoma_dogura,Japanese,personality,Street Fighter 6,VALORANT,7.4,1770,0,1.8,4019,115000,0,33,5.5,Tuesday,Sunday
+721,rush,English,personality,League of Legends,Teamfight Tactics,5.5,5070,22081,1.0,3819,613000,25000000,8,1.8,Tuesday,Sunday
+724,demon1,English,personality,VALORANT,Unreal Tournament,2.9,175,700,1.1,7600,390000,15600,14,0.8,Sunday,Monday
+730,bobbypoffgaming,English,personality,Call of Duty: Warzone,Call of Duty: Black Ops 4,10.8,2150,3774,1.2,19573,422000,7400000,46,5.7,Thursday,Sunday
+739,esportsu,English,personality,Special Events,VALORANT,8.9,130,560,1.5,4263,6500,27700,12,2.5,Tuesday,Sunday
+773,esb_dota2,Spanish,personality,Dota 2,Variety,8.9,1180,2030,1.0,4466,78200,135000,4,2.3,Sunday,Monday
+776,aydan,English,personality,Call of Duty: Warzone,Fortnite,7.3,1682,34197,1.8,13949,3100000,63000000,119,5.4,Tuesday,Sunday
+780,tpabomah,Russian,personality,Dota 2,Total War: WARHAMMER III,5.5,3590,17325,1.0,8289,563000,27100000,23,5.2,Sunday,Friday
+786,creamtherabbit,English,personality,ROBLOX,Counter-Strike,2.2,2131,270,1.4,1148,1010000,13000,32,4.0,Tuesday,Thursday
+790,ennaouii,Chinese,personality,Dead by Daylight,VALORANT,6.6,2020,7940,1.7,4155,128000,505000,60,4.2,Saturday,Monday
+799,abed_dota,English,personality,Dota 2,,4.0,2834,7685,1.0,800,54000,147000,1,0.1,Saturday,Tuesday
+802,justcooman,Russian,personality,Dota 2,Counter-Strike,5.0,2370,15281,1.0,7831,385000,24800000,8,4.4,Wednesday,Monday
+803,bbreadman,English,personality,Call of Duty: Warzone,Rust,6.3,1410,1621,1.1,8506,185000,2140000,57,4.3,Tuesday,Saturday
+806,machete_vilches,Spanish,personality,Slots,Fortnite,3.8,950,3290,1.3,4614,128000,441000,70,3.6,Friday,Wednesday
+818,simply,English,personality,Super Mario 64,Minecraft,4.4,1740,4778,1.6,7224,309000,8590000,133,4.2,Wednesday,Tuesday
+820,amakipururu,Japanese,personality,Street Fighter 6,VALORANT,4.1,2260,3340,1.4,2812,165000,244000,105,5.1,Friday,Sunday
+821,tarzaned,English,personality,League of Legends,Pokemon UNITE,5.3,4110,16747,1.1,8834,603000,24400000,51,4.2,Wednesday,Friday
+832,torontotokyo17,Russian,personality,Dota 2,ELDEN RING,5.3,1915,14706,1.2,6050,239000,1830000,18,0.8,Sunday,Monday
+835,9pasha,Russian,personality,Dota 2,Heroes of Might and Magic III: The Restoration of Erathia,5.9,2970,3753,1.2,9340,64000,987000,4,0.6,Friday,Sunday
+840,moonryde,Italian,personality,Call of Duty: Warzone,PUBG: BATTLEGROUNDS,6.6,1930,6672,1.5,15154,666000,23000000,161,5.9,Wednesday,Wednesday
+848,krapycoco,Chinese,personality,VALORANT,PUBG: BATTLEGROUNDS,7.4,820,2265,1.5,721,81000,2230000,43,2.8,Wednesday,Saturday
+851,solary,French,esports,League of Legends,Teamfight Tactics,20.0,4680,129534,3.1,41951,697000,191000000,382,6.1,Sunday,Sunday
+859,fer,Portuguese,personality,Counter-Strike,Dota 2,4.2,1285,3384,1.3,2353,704000,18300000,21,1.4,Thursday,Sunday
+862,dashy,English,personality,VALORANT,Call of Duty: Black Ops 4,5.3,3810,8769,1.2,5904,394000,9080000,34,3.0,Friday,Friday
+868,sypherpk,English,personality,Fortnite,For Honor,6.6,2586,41334,1.3,1584,6940000,112000000,68,6.1,Tuesday,Sunday
+870,ricoy,Spanish,personality,Rust,Escape from Tarkov,4.9,3740,14417,1.3,7242,476000,18400000,66,3.8,Friday,Thursday
+881,rtgame,English,personality,Team Fortress 2,Minecraft,3.9,8900,13884,1.2,5286,1170000,18300000,483,3.5,Sunday,Saturday
+888,artcsgo,Portuguese,personality,Counter-Strike,Among Us,4.2,9470,7344,1.2,8090,156000,1210000,18,0.6,Thursday,Wednesday
+894,qlnek,Polish,personality,Fortnite,Fall Guys,4.4,1490,589,1.1,5273,202000,7980000,36,4.3,Saturday,Sunday
+898,gernaderjake,English,personality,Destiny 2,Fortnite,8.5,2450,1636,1.3,17639,562000,33000000,179,5.3,Sunday,Saturday
+905,versuta,Russian,personality,Dota 2,PUBG: BATTLEGROUNDS,5.8,540,1238,1.3,12087,491000,121000000,26,5.3,Thursday,Thursday
+916,xhocii,English,personality,Counter-Strike,Slots,3.1,2450,2350,1.1,1518,115000,110000,7,2.1,Wednesday,Sunday
+918,tamatthi,Japanese,personality,Escape from Tarkov,Grand Theft Auto V,6.8,320,9230,1.1,7798,40300,1160000,30,5.3,Sunday,Saturday
+930,wakzlol,French,personality,League of Legends,Dark and Darker,6.0,2150,3920,1.4,2769,119000,281000,48,1.2,Monday,Monday
+936,chiringuitovivo,Spanish,personality,Sports,Fortnite,2.4,950,0,1.0,5230,20300,0,13,2.8,Wednesday,Wednesday
+937,vetheo,French,personality,League of Legends,Watch Dogs 2,3.8,1320,2608,1.0,2331,97800,1940000,3,2.1,Monday,Monday
+945,happyhappygal,English,personality,Fortnite,Apex Legends,5.3,2360,0,1.0,2821,141000,65,6,5.8,Saturday,Tuesday
+962,kokujintv,Japanese,personality,Street Fighter 6,VALORANT,6.2,1810,7930,1.4,3664,123000,539000,62,2.7,Friday,Sunday
+964,lollolacustre,Italian,personality,Minecraft,Brawl Stars,4.8,7140,0,1.5,2436,566000,30,46,2.8,Wednesday,Monday
+965,thiefs,English,personality,Fortnite,Call of Duty: WWII,7.1,2290,279,1.1,16818,575000,6990000,55,6.1,Thursday,Saturday
+966,alexclick,French,personality,Grand Theft Auto V,ARK: Survival Evolved,5.2,880,9077,1.1,7035,177000,15900000,169,3.4,Wednesday,Saturday
+973,slipix,French,personality,League of Legends,Legends of Runeterra,3.5,1310,2227,1.0,5863,191000,3240000,24,4.3,Monday,Saturday
+974,gearbaby1010,Chinese,personality,Teamfight Tactics,League of Legends,6.9,2730,14986,1.4,7345,290000,15700000,50,3.0,Wednesday,Monday
+979,sips_,English,personality,Minecraft,RimWorld,6.5,1780,9415,1.3,1126,546000,21800000,342,4.4,Wednesday,Monday
+986,nickeh30,English,personality,Fortnite,Call of Duty: Warzone,6.0,3633,54313,1.2,8654,5350000,79900000,85,4.0,Tuesday,Sunday
+987,eslcsc,English,esports,Counter-Strike,Variety,5.6,1026,3238,1.0,1435,297000,9380000,2,0.8,Wednesday,Sunday
+988,smii7y,English,personality,Call of Duty: Warzone,PUBG: BATTLEGROUNDS,2.7,3045,6844,1.1,1135,1310000,3020000,114,1.1,Sunday,Thursday

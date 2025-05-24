@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Streamer Network (Tight & Fullscreen)</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="body.css">
+  
+</head>
+<body>
+    <div class="banner">
+        <img src="icon.png" alt="Twitch Icon" class="banner-icon">
+        <span class="banner-text">Twitch Streamers Network Analysis</span>
+    </div>
+    <div class="main-layout">
+        
+        <div class="left-panel">
+            <h1>About</h1>  
+          <p>
+            This network graph visualizes the connections between Twitch streamers based on shared games or collaborations. Each node represents a streamer, and links indicate shared activities. Use this visualization to explore community clusters and discover influential streamers within the network.
+          </p>
+        </div>
+        <div class="right-panel">
+          <svg id="network"></svg>
+          <div id="tooltip"></div>
+        </div>
+    </div>
+<div id="tooltip2"></div>
+<div id="chart"></div>
+<script src="network.js"></script>
+<script src="bar.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+/* 0) CSS Reset for cross-browser consistency */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* 1) Set box-sizing for all elements */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+ /* 1) Remove all page margins/padding */
+ html, body { margin:0; padding:0; width:100%; height:100%; overflow:hidden;background: #18181b;}
+
+ /* 2) SVG fills the viewport */
+ .main-layout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  .left-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30vw;
+    background: #18181b;
+    color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .right-panel {
+    width: 70vw;
+    height: 100vh;
+    position: relative;
+  }
+  #network {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #18181b;
+  }
+
+  .left-panel h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+  }
+
+  .left-panel p {
+    font-size: 1.3em;
+    max-width: 90%;
+  }
+
+ .link { stroke: #717171; stroke-opacity: 0.6; }
+ .node { stroke: #444; stroke-width:1px; cursor:pointer; }
+ .nodelabel { font:600 13px sans-serif; fill:#fff; pointer-events:none; }
+ .highlight-node { stroke:#000; stroke-width:2px; }
+ .highlight-link { stroke:#666; stroke-opacity:1; }
+
+ #tooltip {
+   position:absolute; pointer-events:none;
+   padding:6px 8px; background:rgba(0,0,0,0.7);
+   color:#fff; font-size:12px; border-radius:4px;
+   visibility:hidden;
+ }
+ .banner {
+    background-color: #9146FF; /* Twitch purple */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Added padding for spacing */
+    position: relative;
+}
+.banner-icon {
+    width: 60px; /* Adjusted size for the icon */
+    height: 60px;
+    margin-right: 20px; /* Space between icon and text */
+}
+.banner-text {
+    font-size: 34px;
+    font-weight: 900;
+    color: white;
+    text-transform: lowercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif; 
+    letter-spacing: 2px;
+    text-shadow: 
+        -3px -3px 0 #000,  
+         3px -3px 0 #000,  
+        -3px  3px 0 #000,  
+         5px  5px 0 #000; /* Thicker shadow for more pronounced 3D effect */
+}
+:root {
+    --bg: #f0f2f5;
+    --font: 'Segoe UI', Tahoma, sans-serif;
+    --blue: steelblue;
+    --orange: darkorange;
+    --shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  * { box-sizing: border-box; }
+  #chart {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  svg {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+
+  .bar1 {
+    fill: var(--blue);
+    rx: 4;
+    ry: 4;
+    transition: fill 0.2s;
+  }
+  .bar1:hover {
+    fill: darkblue;
+  }
+
+  .bar2 {
+    fill: var(--orange);
+    rx: 4;
+    ry: 4;
+    transition: fill 0.2s;
+  }
+  .bar2:hover {
+    fill: orangered;
+  }
+
+  .bar1.selected, .bar2.selected {
+    stroke: #000;
+    stroke-width: 2px;
+  }
+
+  .axis-label {
+    font-size: 14px;
+    fill: #555;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+    text-anchor: middle;
+    fill: #222;
+  }
+
+  .tick text {
+    font-size: 12px;
+  }
+
+  .error-bar {
+    stroke: #333;
+    stroke-width: 2px;
+  }
+
+  #tooltip2 {
+    position: absolute;
+    padding: 8px 12px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 4px;
+    pointer-events: none;
+    visibility: hidden;
+    box-shadow: var(--shadow);
+  }
