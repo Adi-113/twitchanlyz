@@ -1,4 +1,3 @@
-
 /* 1) Remove all page margins/padding */
 html,
 body {
@@ -213,6 +212,8 @@ svg {
   max-width: 90%;
   color:white;
   margin-left: 100px;
+  margin-bottom: 40px;
+
 
 }
 .right-panel2 {
@@ -260,11 +261,50 @@ svg {
     }
     #tooltip3 .lang { font-weight: 600; font-size: 20px; margin-bottom: 4px; display: block; }
     #tooltip3 .details { font-size: 20px; }
-    #community { width:100vw; height:100vh; background: #18181b; }
-    .link { stroke: #aaa; stroke-width: 1px; }
-    .node { stroke: #fff; stroke-width: 1.5px; cursor: pointer; }
+    #community {
+      width: 100vw;
+      height: 100vh;
+      background: #18181b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #community svg {
+      display: block;
+      max-width: 100vw;
+      max-height: 100vh;
+
+    }
+    .link { stroke: #837d7d; stroke-width: 1px; }
+    .node { stroke: #000000; stroke-width: 1.5px; cursor: pointer; }
     .legend {
         font-size: 14px;
       }
       .legend-item { cursor: pointer; }
       .legend-color { width: 12px; height: 12px; display: inline-block; margin-right: 4px; }
+      .legend, .legend-item, .legend-item text {
+        color: #fff !important;
+        fill: #fff !important;
+        font-size: large;
+      }
+      #path { width:100vw; height:100vh; background: #18181b; }
+      .path-link     { fill: none; stroke-width: 4px; }
+      .longest       { stroke: rgb(220, 20, 60); }
+      .shortest      { stroke: rgb(33, 23, 166); }
+      .path-node     { stroke: #000; stroke-width: 5px; }
+      .longest-node  { fill: crimson; }
+      .shortest-node { fill: rgb(33, 23, 166); }
+      .path-label    { font-size: 16px; font-weight: bold; pointer-events: none; }
+
+      .path-link.community {
+        stroke: rgb(126, 21, 120);
+        stroke-width: 4;
+        opacity: 1;
+      }
+      
+      .path-node.community-node {
+        fill: rgb(126, 21, 120);
+        stroke: black;
+        stroke-width: 5px;
+      }
+      

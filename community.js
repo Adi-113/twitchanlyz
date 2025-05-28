@@ -1,5 +1,5 @@
-const width4 = 1000;
-const height4 = 1100;
+const width4 = 3500;
+const height4 = 1800;
 const svg4 = d3.select('#community').append('svg')
   .attr('width', width4)
   .attr('height', height4);
@@ -13,7 +13,7 @@ d3.json('community_data.json').then(({nodes, links}) => {
 
   // simulation
   const simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(80).strength(0.9))
+    .force('link', d3.forceLink(links).id(d => d.id).distance(100).strength(0.8))
     .force('charge', d3.forceManyBody().strength(-500))
     .force('center', d3.forceCenter(width4/3, height4/3));
 
@@ -72,7 +72,8 @@ d3.json('community_data.json').then(({nodes, links}) => {
   // legend
   const legend = svg4.append('g')
     .attr('class','legend')
-    .attr('transform','translate(20,20)');
+    .attr('transform','translate(90,90)')
+    .style('margin-left','25px');
   groups.forEach((g,i) => {
     const item = legend.append('g')
       .attr('class','legend-item')
