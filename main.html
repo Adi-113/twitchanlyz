@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Streamer Network (Tight & Fullscreen)</title>
+    <title>Twitch Data Analysis</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="body.css" />
     <style>
@@ -14,13 +14,13 @@
       <img src="icon.png" alt="Twitch Icon" class="banner-icon" />
       <span class="banner-text">Twitch Streamers Network Analysis</span>
     </div>
-    <div class="main-layout">
+    <div class="main-layout content-section">
       <div class="left-panel">
-        <h1>About</h1>
+        <h1>About the project</h1>
         <p>
           This network graph visualizes the connections between Twitch streamers
           based on shared games or collaborations. Each node represents a
-          streamer, and links indicate shared activities. Use this visualization
+          streamer, and links indicate shared top-streamed games. Use this visualization
           to explore community clusters and discover influential streamers
           within the network.
         </p>
@@ -31,43 +31,57 @@
       </div>
     </div>
     <div class="info">
-      <h1>Bar Chart</h1>
-      <p>hsdauhguigwkhdagwei3wdsiguehidshidaywhdcuhwdakkshjslzjfiofoldjsixdl</p>
-    </div>
+      <h2>Which day of week is "Prime Time" for follower growth? </h2>
+      <p>According to these Charts,While <strong>Tuesday</strong> is the <strong>most popular day among streamers</strong>, it does not correspond to the highest average follower gain, 
+        suggesting saturation or competition. Conversely, <strong>Sunday</strong> appears underutilized relative to its <strong>high follower gain potential</strong>, indicating an opportunity for increased visibility and growth. 
+        Streamers looking to <strong>maximize reach</strong> might consider shifting part of their schedule to <strong>Sundays and Fridays</strong> for higher impact.</p>
     <div>
       <div id="tooltip2"></div>
       <div id="chart"></div>
     </div>
-    <div class="main-layout">
+    <div class="main-layout content-section">
         <div class="left-panel2">
             <div id="pie"></div>
             <div id="tooltip3"></div>
         </div>
-        <div class="right-panel2">
-            <h1>Pie Chart</h1>
-            <p>hsdauhguigwkhdagwei3wdsiguehidshidaywhdcuhwdakkshjslzjfiofoldjsixdl</p>
+        <div class="right-panel2"">
+            <h2 style="margin-left:0;">How diverse is the platform linguistically?</h2>
+            <p>The chart highlights a highly centralized linguistic landscape, with nearly half of all streamers using a single dominant language,<strong>English(48%)</strong>. 
+              Other widely used languages include <strong>Japanese (11%), French (8.5%), Portuguese (7.5%), and German (5.5%)</strong>, reflecting strong regional communities.
+              This distribution suggests that while English-speaking streamers benefit from broader audience access and platform visibility, there is meaningful potential for growth among underrepresented language groups.
+            </p>
         </div>
     </div>
     <div class="info">
-        <h1>Community Detection</h1>
-        <p>hsdauhguigwkhdagwei3wdsiguehidshidaywhdcuhwdakkshjslzjfiofoldjsixdl</p>
+        <h2>what communities naturally emerge Streamers' Gaming preferences?</h2>
+        <p>We applied a community detection algorithm, <strong>Louvain method</strong>—to the network of streamers.The Louvain algorithm clusters streamers into modular communities that are more densely connected internally than with the rest of the graph. 
+          Each detected community was then labeled using the most commonly streamed game among its members, such as <strong>League of Legends, VALORANT, or Minecraft</strong>.
+
+        </p>
     </div>
     <div>
         <div id="community"></div>
         <div id="tooltip4" class="tooltip"></div>
     </div>
     <div class="info">
-      <h1>Shortest and Longest Path from Communities</h1>
-      <p>hsdauhguigwkhdagwei3wdsiguehidshidaywhdcuhwdakkshjslzjfiofoldjsixdljdst7ueagYaibvxh8u3quiwuiu</p>
+      <h2>How does influence travel across the Twitch streamers' universe ?</h2>
+      <p>The network visualization reveals three critical paths that define how influence flows across the Twitch streamer ecosystem. The <span class="red">longest path </span>, 
+        connecting <span class="red">paulinholokobr</span> from the GTA V cluster to <span class="red">tolkin</span> from the League of Legends cluster, 
+        represents the most distant bridge—highlighting a potential bottleneck where content 
+        or trends take the most steps to traverse between communities. In contrast, the <span class="blue">shortest path</span> between <span class="blue">pobelter</span> and <span class="blue">xarola_ links</span> 
+        the LoL and VALORANT communities directly,acting as a fast lane for audience engagement. 
+        Most notably, the <span class="purple"> cross-community path </span> weaves through key streamers spanning all six major game clusters, serving as the backbone of the network. 
+        These streamers are strategically positioned to influence multiple communities simultaneously and play a central role in unifying the fragmented streaming landscape.</p>
     </div>
 
     <div>
       <div id="path"></div>
       <div id="tooltip5" class="tooltip"></div>
     </div>
-    <div class="info" style="margin-top:120px;margin-left:90px;">
-      <h1>Is the streamers' Network Small-World in Nature?</h1>
-      <p>hsdauhguigwkhdagwei3wdsiguehidshidaywhdcuhwdakkshjslzjfiofoldjsixdljdst7ueagYaibvxh8u3quiwuiu</p>
+    <div class="info" style="margin-top:70px;">
+      <h2>Is the streamers' Network Small-World in Nature?</h2>
+      <p>The <strong>Streamers' Graph</strong> is a <strong>small-world</strong> network.It has a<strong>high clustering coefficient (0.7241)</strong> , similar to a regular lattice, indicating strong local connectivity.
+         At the same time, its <strong>small diameter (5)</strong> is closer to that of a random graph, enabling efficient global reach. This combination confirms that the network is small-world in nature.</p>
     </div>
     <div style="display: flex; align-items: flex-start; justify-content: center; gap: 40px;">
       <div style="background: #fff; border-radius: 16px; box-shadow: 0 4px 16px rgba(248, 245, 245, 0.18); padding: 24px; margin: 0 8px; display: flex; flex-direction: column; align-items: center; width: 650px; height: 650px; justify-content: center;">
@@ -78,7 +92,7 @@
       </div>
     </div>
     <div style="display: flex; align-items: flex-start; justify-content: center; gap: 40px;margin-top: 15px;">
-      <div style="padding: 24px; margin: 0 8px; display: flex; flex-direction: column; align-items: center;">
+      <div style="padding: 24px; margin: 0 8px; display: flex; flex-direction: column; align-items: center;text-align:center">
         <table style="border-collapse: collapse; min-width: 450px; background: #222; color: #fff; font-size: 2em; border-radius: 8px; overflow: hidden;">
           <tbody>
             <tr>
@@ -89,21 +103,21 @@
             </tr>
             <tr>
               <td style="border: 1px solid #444; padding: 10px;">Density</td>
-              <td style="border: 1px solid #444; padding: 10px;">B2</td>
-              <td style="border: 1px solid #444; padding: 10px;">B3</td>
-              <td style="border: 1px solid #444; padding: 10px;">B4</td>
+              <td style="border: 1px solid #444; padding: 10px;">0.154</td>
+              <td style="border: 1px solid #444; padding: 10px;">0.154</td>
+              <td style="border: 1px solid #444; padding: 10px;">0.154</td>
             </tr>
             <tr>
               <td style="border: 1px solid #444; padding: 10px;">Diameter</td>
-              <td style="border: 1px solid #444; padding: 10px;">C2</td>
-              <td style="border: 1px solid #444; padding: 10px;">C3</td>
-              <td style="border: 1px solid #444; padding: 10px;">C4</td>
+              <td style="border: 1px solid #444; padding: 10px;">5</td>
+              <td style="border: 1px solid #444; padding: 10px;">7</td>
+              <td style="border: 1px solid #444; padding: 10px;">3</td>
             </tr>
             <tr>
               <td style="border: 1px solid #444; padding: 10px;">Clustering Co-efficient</td>
-              <td style="border: 1px solid #444; padding: 10px;">D2</td>
-              <td style="border: 1px solid #444; padding: 10px;">D3</td>
-              <td style="border: 1px solid #444; padding: 10px;">D4</td>
+              <td style="border: 1px solid #444; padding: 10px;">0.7241</td>
+              <td style="border: 1px solid #444; padding: 10px;">0.8489</td>
+              <td style="border: 1px solid #444; padding: 10px;">0.1534</td>
             </tr>
           </tbody>
         </table>
@@ -115,4 +129,5 @@
     <script src="community.js"></script>
     <script src="path.js"></script>
   </body>
+
 </html>
