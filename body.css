@@ -51,7 +51,7 @@ body {
 
 .left-panel h1 {
   margin-bottom: 20px;
-  font-size: 3em;
+  font-size: 2.1em;
   font-weight: 900;
   color: #b9a3e3;
   text-transform:uppercase;
@@ -59,16 +59,10 @@ body {
   letter-spacing: 2px;
   text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000,
     5px 5px 0 #000; font-weight: 900;
-  color: #b9a3e3;
-  text-transform:capitalize;
-  font-family: Arial, sans-serif;
-  letter-spacing: 2px;
-  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000,
-    5px 5px 0 #000; 
 }
 
 .left-panel p {
-  font-size: 1.8em;
+  font-size: 1.5em;
   max-width: 90%;
 }
 
@@ -120,7 +114,7 @@ body {
   margin-right: 20px; /* Space between icon and text */
 }
 .banner-text {
-  font-size: 38px;
+  font-size: 34px;
   font-weight: 900;
   color: white;
   text-transform: lowercase;
@@ -145,7 +139,6 @@ body {
 #chart {
   display: flex;
   gap: 40px;
-  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
@@ -195,7 +188,7 @@ svg {
 }
 
 .tick text {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .error-bar {
@@ -215,12 +208,12 @@ svg {
   box-shadow: var(--shadow);
 }
 .info{
-  margin-top: -45px;
+  margin-top: 100px;
 }
 .info h2{
   margin-left: 100px;
   margin-bottom: 20px;
-  font-size:3em;
+  font-size:2.5em;
   font-weight: 900;
   color: #b9a3e3;
   text-transform:capitalize;
@@ -230,7 +223,7 @@ svg {
     5px 5px 0 #000; 
 }
 .info p {
-  font-size: 1.8em;
+  font-size: 1.5em;
   max-width: 90%;
   color:white;
   margin-left: 100px;
@@ -261,6 +254,7 @@ strong{
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    margin-left: 0px;
 
   }
   .left-panel2 {
@@ -268,9 +262,9 @@ strong{
     height: 100vh;
     align-items: center;
     overflow-wrap: break-word;
-    margin-left: -100px;
+    margin-left: -50px;
   }
-  #pie { display: flex; justify-content: center; align-items: center; height: 90vh;margin-left: 45px;}
+  #pie { display: flex; justify-content: center; align-items: center; height: 90vh;margin-left: 10px;}
   .slice path { cursor: pointer; transition: transform 0.2s; }
     .slice:hover path { transform: scale(1.05); }
 
@@ -290,6 +284,7 @@ strong{
     #tooltip3 .lang { font-weight: 600; font-size: 20px; margin-bottom: 4px; display: block; }
     #tooltip3 .details { font-size: 20px; }
     #community {
+      margin-top: -40px;
       width: 100vw;
       height: 100vh;
       background: #18181b;
@@ -298,7 +293,7 @@ strong{
       align-items: center;
     }
     #community svg {
-      margin-left: 90px;
+      margin-left: 0;
       display: block;
       max-width: 100vw;
       max-height: 100vh;
@@ -307,14 +302,14 @@ strong{
     .link { stroke: #837d7d; stroke-width: 1px; }
     .node { stroke: #000000; stroke-width: 1.5px; cursor: pointer; }
     .legend {
-        font-size: 20px;
+        font-size: 14px;
       }
       .legend-item { cursor: pointer; }
       .legend-color { width: 12px; height: 12px; display: inline-block; margin-right: 4px; }
       .legend, .legend-item, .legend-item text {
         color: #fff !important;
         fill: #fff !important;
-        font-size:20px;
+        font-size:14px;
       }
       #path { width:100vw; height:100vh; background: #18181b; }
       .path-link     { fill: none; stroke-width: 4px; }

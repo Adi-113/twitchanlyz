@@ -1,6 +1,6 @@
-const totalWidth = 1800,
-  totalHeight = 900,
-  margin1 = { top: 60, right: 20, bottom: 80, left: 80 },
+const totalWidth = 900,
+  totalHeight = 700,
+  margin1 = { top: 60, right: 180, bottom: 200, left: 80 },
   plotWidth = (totalWidth - margin1.left - margin1.right) / 2,
   plotHeight = totalHeight - margin1.top - margin1.bottom;
 
@@ -12,7 +12,7 @@ console.log(tooltip2);
 // Two canvases
 const svg1 = container2
   .append("svg")
-  .attr("width", plotWidth + margin1.left + margin1.right)
+  .attr("width", plotWidth + margin1.left +margin1.right)
   .attr("height", plotHeight + margin1.top + margin1.bottom)
   .append("g")
   .attr("transform", `translate(${margin1.left},${margin1.top})`);
@@ -60,13 +60,13 @@ d3.csv("stream.csv", (d) => ({
     });
 
     // scales
-    const x1 = d3.scaleBand().domain(days).range([0, plotWidth]).padding(0.2);
+    const x1 = d3.scaleBand().domain(days).range([0, plotWidth + 150]).padding(0.3);
     const y1 = d3
       .scaleLinear()
       .domain([0, d3.max(freq, (d) => d.count)])
       .nice()
       .range([plotHeight, 0]);
-    const x2 = d3.scaleBand().domain(days).range([0, plotWidth]).padding(0.2);
+    const x2 = d3.scaleBand().domain(days).range([0, plotWidth + 150]).padding(0.3);
     const y2 = d3
       .scaleLinear()
       .domain([0, d3.max(stats, (d) => d.mean + d.sd)])
@@ -82,31 +82,32 @@ d3.csv("stream.csv", (d) => ({
         .attr("transform", `translate(0,${plotHeight})`)
         .call(d3.axisBottom(x))
         .selectAll("text")
+        .style("color", "white")
+        .style("text-anchor", "end")
+        .attr("dx", "-.8em")
+        .attr("dy", "1.8em")
+        .attr("transform", "rotate(-45)");
 
-        .style("color","white")
-        .style("text-anchor", "end");
-      svg.selectAll('.x-axis text')
-        .attr('dx','1.5em')
-         .attr('dy', '2.5em');
       svg
         .append("text")
         .attr("class", "title")
-        .attr("x", plotWidth / 2)
+        .attr("x", plotWidth-120)
         .attr("y", -30)
-        .attr("fontsize","14px")
+        .attr("fontsize", "14px")
         .text(title);
       svg
         .append("text")
         .attr("class", "axis-label")
         .attr("x", -plotHeight / 2)
-        .attr("y", -50)
-        .attr("fontsize","14px")
+        .attr("y", -60)
+        .attr("fontsize", "14px")
         .attr("transform", "rotate(-90)")
         .text(ylabel);
-    svg.selectAll('.y-axis text')
-        .attr('dy','1.2em')
-      svg.selectAll('.y-axis text, .x-axis text')
 
+      svg.selectAll('.y-axis text')
+          .attr('dy','1.5em')
+
+      svg.selectAll('.y-axis text, .x-axis text')
          .attr('fill', '#fff')
          .style('font-size', '16px');
       svg.selectAll('.y-axis path, .y-axis line, .x-axis path, .x-axis line')
