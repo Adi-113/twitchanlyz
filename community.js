@@ -1,5 +1,5 @@
-const width4 = 1200;
-const height4 = 1200;
+const width4 = 1800;
+const height4 = 2500;
 const svg4 = d3.select('#community').append('svg')
   .attr('width', width4)
   .attr('height', height4);
@@ -15,7 +15,7 @@ d3.json('community_data.json').then(({nodes, links}) => {
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(80).strength(0.8))
     .force('charge', d3.forceManyBody().strength(-300))
-    .force('center', d3.forceCenter(width4/2, height4/2));
+    .force('center', d3.forceCenter(width4/3.5, height4/6.25));
 
   // zoom
   const container4 = svg4.append('g');
@@ -42,8 +42,8 @@ d3.json('community_data.json').then(({nodes, links}) => {
                .style('visibility', 'visible');
       })
       .on('mousemove', event => {
-        tooltip4.style('top', (event.pageY+10)+'px')
-               .style('left',(event.pageX+10)+'px');
+        tooltip4.style('top', (event.pageY+50)+'px')
+               .style('left',(event.pageX+50)+'px');
       })
       .on('mouseout', () => tooltip4.style('visibility', 'hidden'))
       .call(d3.drag()
@@ -72,8 +72,7 @@ d3.json('community_data.json').then(({nodes, links}) => {
   // legend
   const legend = svg4.append('g')
     .attr('class','legend')
-    .attr('transform','translate(100,60)')
-    .style('margin-left','-25px');
+    .attr('transform','translate(1100,40)');
   groups.forEach((g,i) => {
     const item = legend.append('g')
       .attr('class','legend-item')

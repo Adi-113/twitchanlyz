@@ -44,7 +44,7 @@
             <div id="pie"></div>
             <div id="tooltip3"></div>
         </div>
-        <div class="right-panel2"">
+        <div class="right-panel2">
             <h2 style="margin-left:0;">How diverse is the platform linguistically?</h2>
             <p>The chart highlights a highly centralized linguistic landscape, with nearly half of all streamers using a single dominant language,<strong>English(48%)</strong>. 
               Other widely used languages include <strong>Japanese (11%), French (8.5%), Portuguese (7.5%), and German (5.5%)</strong>, reflecting strong regional communities.
@@ -59,8 +59,8 @@
 
         </p>
     </div>
-    <div>
-        <div id="community"></div>
+    <div style="margin-top:100px;">
+        <svg id="community"></svg>
         <div id="tooltip4" class="tooltip"></div>
     </div>
     <div class="info">
@@ -75,7 +75,7 @@
     </div>
 
     <div>
-      <div id="path"></div>
+      <div id="path" style="font-size:16px !important;"></div>
       <div id="tooltip5" class="tooltip"></div>
     </div>
     <div class="info" style="margin-top:70px;">
@@ -83,17 +83,9 @@
       <p>The <strong>Streamers' Graph</strong> is a <strong>small-world</strong> network.It has a<strong>high clustering coefficient (0.7241)</strong> , similar to a regular lattice, indicating strong local connectivity.
          At the same time, its <strong>small diameter (5)</strong> is closer to that of a random graph, enabling efficient global reach. This combination confirms that the network is small-world in nature.</p>
     </div>
-    <div style="display: flex; align-items: flex-start; justify-content: center; gap: 40px;">
-      <div style="background: #fff; border-radius: 16px; box-shadow: 0 4px 16px rgba(248, 245, 245, 0.18); padding: 24px; margin: 0 8px; display: flex; flex-direction: column; align-items: center; width: 650px; height: 650px; justify-content: center;">
-        <img src="regular.png" alt="Regular Graph" style="max-width: 600px; max-height: 600px; border-radius: 8px; box-shadow: 0 2px 8px rgba(235, 233, 233, 0.2);">
-      </div>
-      <div style="background: #fff; border-radius: 16px; box-shadow: 0 4px 16px rgba(248,245,245,0.18); padding: 24px; margin: 0 8px; display: flex; flex-direction: column; align-items: center; width: 650px; height: 650px; justify-content: center;">
-        <img src="random.png" alt="Random Graph" style="max-width: 600px; max-height: 600px; border-radius: 8px; box-shadow: 0 2px 8px rgba(224, 222, 222, 0.2);">
-      </div>
-    </div>
     <div style="display: flex; align-items: flex-start; justify-content: center; gap: 40px;margin-top: 15px;">
       <div style="padding: 24px; margin: 0 8px; display: flex; flex-direction: column; align-items: center;text-align:center">
-        <table style="border-collapse: collapse; min-width: 450px; background: #222; color: #fff; font-size: 2em; border-radius: 8px; overflow: hidden;">
+        <table style="border-collapse: collapse; min-width: 450px; background: #222; color: #fff; font-size: 1.2em; border-radius: 8px; overflow: hidden;">
           <tbody>
             <tr>
               <td style="border: 1px solid #444; padding: 10px;">Parameters</td>
