@@ -19,7 +19,7 @@ const width5 = 1800;
       const sim = d3.forceSimulation(nodes)
         .force('link', d3.forceLink(links).id(d => d.id).distance(100).strength(0.8))
         .force('charge', d3.forceManyBody().strength(-400))
-        .force('center', d3.forceCenter(width5 / 2, height5 /5));
+        .force('center', d3.forceCenter(width5 / 2, height5 /4));
 
       const link = container5.append('g').selectAll('line')
         .data(links).join('line').attr('class','link').style('opacity','0.25');
