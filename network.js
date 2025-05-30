@@ -1,7 +1,7 @@
 const rawDataURL = "streaming_data.json"; // your JSON
 
 const svgWidth = 1000;
-const svgHeight = 1500;
+const svgHeight = 1200;
 
 // Small inner margin so labels don't get cut
 const margin = { top: 50, right: 20, bottom: 10, left: 20 };

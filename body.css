@@ -351,3 +351,14 @@ strong{
         color: rgb(239, 64, 230);
         font-weight: bold;
       }
+
+div[style*="display: flex; align-items: flex-start"] {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 0 20px;
+}
+
+div[style*="padding: 24px; margin: 0 8px"] {
+  min-width: 450px;
+  max-width: 100%;
+}

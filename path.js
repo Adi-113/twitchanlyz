@@ -1,5 +1,5 @@
 const width5 = 1800;
-    const height5 = 2500;
+    const height5 = 2300;
     const svg5 = d3.select('#path').append('svg')
       .attr('viewBox', [0, 0, width5, height5])
       .attr('preserveAspectRatio', 'xMidYMid meet');
